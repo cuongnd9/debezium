@@ -2,12 +2,16 @@
 
 > Learning debezium by @103cuong
 
-<p>
-  <img src="https://github.com/103cuong/103cuong/blob/master/cat.gif" alt="cat" width="250" />
-</p>
+![debezium-architecture](./assets/debezium-architecture.png)
 
-## Documents
+## 🔫 Steps
 
-## License
+### [1. Setup environment](./docs/1_setup_environment.md)
+
+## 📙 Documents
+
+- [Debezium tutoral](https://debezium.io/documentation/reference/1.2/tutorial.html)
+
+## 🦄 License
 
 MIT

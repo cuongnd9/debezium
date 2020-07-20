@@ -148,7 +148,7 @@ Làm tương tự ví dụ ở mục II.1. Lưu ý một số điều sau:
 
 Postgres:
 
-+ Trong docker-file, cuyển context đến dockerfile trong folder app-db. Dockerfile này được coppy từ dockerhub với image: debezium/postgres:9.6.+ Thay đổi file postgresql.conf.sample: tăng số lượng max_replication_slots và max_wal_senders. (Số lượng relication tương ứng với số lượng tối database trong hệ thống)
++ Trong docker-file, chuyển context đến dockerfile trong folder app-db. Dockerfile này được coppy từ dockerhub với image: debezium/postgres:9.6.+ Thay đổi file postgresql.conf.sample: tăng số lượng max_replication_slots và max_wal_senders. (Số lượng relication tương ứng với số lượng tối database trong hệ thống)
 
 Connector:
 
