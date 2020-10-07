@@ -1,0 +1,20 @@
+{
+  "name": "StoryServiceConnector",
+  "config": {
+    "connector.class": "io.debezium.connector.postgresql.PostgresConnector",
+    "tasks.max": "1",
+    "database.hostname": "app_db",
+    "database.port": "5432",
+    "database.user": "postgres",
+    "database.password": "postgres",
+    "database.server.id": "184054",
+    "database.dbname": "story_service",
+    "database.server.name": "the4pet",
+    "table.whitelist": "public.orders",
+    "database.history.kafka.bootstrap.servers": "broker:9092",
+    "decimal.handling.mode": "double",
+    "include.schema.changes": "true",
+    "transforms": "unwrap",
+    "transforms.unwrap.type": "io.debezium.transforms.ExtractNewRecordState"
+  }
+}
