@@ -1,0 +1,11 @@
+{
+    "name": "ESSinkConnector",
+    "config": {
+        "topics": "the4pet.public.orders",
+        "connector.class": "io.confluent.connect.elasticsearch.ElasticsearchSinkConnector",
+        "connection.url": "http://elasticsearch:9200",
+        "type.name": "type.name=the4pet",
+        "key.ignore": "true",
+        "schema.ignore": "true"
+    }
+}
